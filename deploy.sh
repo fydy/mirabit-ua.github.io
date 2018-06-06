@@ -19,4 +19,7 @@ echo 'luolvshi.me/nextjs' > CNAME
 git init
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push --force https://$nextjs@github.com/fydy/nextjs.git master
+
+env:
+  global:
+	- GIT_DEPLOY_REPO=https://$nextjs@github.com/fydy/nextjs.git
