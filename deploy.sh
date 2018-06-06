@@ -6,8 +6,8 @@ GIT_DEPLOY_REPO="${GIT_DEPLOY_REPO:-"$(node -e 'process.stdout.write(require("./
 if [ "$TRAVIS" = "true" ]
 then
   # git need this, on Travis-CI nobody is defined
-  git config --global user.name "Travis CI" && \
-  git config --global user.email "travis@travis-ci.org"
+  git config --global user.name "fydy" && \
+  git config --global user.email "edu@yuns.me"
 fi
 
 cd out
