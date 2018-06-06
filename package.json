@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "build-html": "next export",
+    "test": "npm run build && npm run build-html",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "module-alias": "^2.0.6",
+    "next": "^6.0.3",
+    "preact": "^8.2.9",
+    "preact-compat": "^3.18.0"
+  },
+  "devDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
