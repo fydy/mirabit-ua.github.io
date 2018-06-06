@@ -196,7 +196,7 @@ export default () => {
                         <i className="fa fa-linkedin" />
                       </a>
 
-                      <a href="https://github.com/mirabit-ua" title="GitHub" target="_blank">
+                      <a href="https://github.com/fydy" title="GitHub" target="_blank">
                         <i className="fa fa-github" />
                       </a>
                     </div>
