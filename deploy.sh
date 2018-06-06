@@ -14,9 +14,9 @@ cd out
 rm -rf .git static
 cp -rL ../static .
 touch .nojekyll
-echo 'mirabit.com.ua' > CNAME
+echo 'luolvshi.me/nextjs' > CNAME
 
 git init
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push --force "${GIT_DEPLOY_REPO}" master
+git push --force https://$nextjs@github.com/fydy/nextjs.git master
